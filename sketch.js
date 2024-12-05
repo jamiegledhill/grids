@@ -1,7 +1,7 @@
 const CELLSIZES = [40, 50, 100, 150];
 const COLOURS = ["#FF6347","#FFD700", "#EE82EE"]
 function setup() {
-  createCanvas(600, 800);
+  createCanvas(innerWidth, innerHeight);
   noLoop()
 }
 
